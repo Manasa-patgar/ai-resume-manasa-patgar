@@ -1,0 +1,56 @@
+.contact-container
+{
+  margin-top: 50px;
+  padding: 5%;
+  justify-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact-title
+{
+  font-size: 2.5rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.contact-item
+{
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact-item p
+{
+  margin: 0;
+  margin-bottom: 1rem;
+  font-size: medium;
+  font-weight: semi-bold;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10%;
+}
+
+.contact-icon {
+  margin: 0 10px;
+  font-size: 3rem;
+}
+
+.contact-footer {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: grey;
+  margin-bottom: 50px;
+}
+
+.contact-title p {
+  display: inline;
+}

@@ -1,0 +1,37 @@
+.projects-container {
+  margin-top: 2rem;
+  margin-left: 10%;
+  padding: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.projects-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin: 0 auto;
+  text-align: left;
+  position: relative;
+}
+
+.light-mode .projects-title::after {
+  --projects-title-line-color: #333;
+}
+
+.dark-mode .projects-title::after {
+  --projects-title-line-color: #fff;
+}
+
+.projects-title::after {
+  content: '';
+  display: block;
+  width: 135px;
+  height: 2px;
+  background-color: var(--projects-title-line-color);
+  margin: 10px 0 0;
+}
+
+.projects-list {
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }

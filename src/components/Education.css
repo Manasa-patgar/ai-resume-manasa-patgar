@@ -1,0 +1,36 @@
+.education-container {
+  margin-top: 50px;
+  padding: 20px;
+  margin-left: 10%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.education-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin: 0 auto;
+  text-align: left;
+  position: relative;
+}
+
+.light-mode .education-title::after {
+  --education-title-line-color: #333;
+}
+
+.dark-mode .education-title::after {
+  --education-title-line-color: #fff;
+}
+
+.education-title::after {
+  content: '';
+  display: block;
+  width: 170px;
+  height: 2px;
+  background-color: var(--education-title-line-color);
+  margin: 10px 0 0;
+}
+
+.education-list {
+  padding: 0;
+  margin-bottom: 50px;
+}

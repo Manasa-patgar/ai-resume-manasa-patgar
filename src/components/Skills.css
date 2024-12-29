@@ -1,0 +1,64 @@
+.skills-container {
+    max-width: 100%;
+    margin-left: 10%;
+    padding: 2rem;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: auto; /* Increase height */
+  }
+  
+  .skills-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+  }
+
+  .light-mode .skills-title::after {
+    --skills-title-line-color: #333; /* Dark line for light mode */
+}
+
+.dark-mode .skills-title::after {
+    --skills-title-line-color: #fff; /* Light line for dark mode */
+}
+  
+  .skills-title::after {
+    content: '';
+    display: block;
+    width: 90px;
+    height: 2px;
+    background-color: var(--skills-title-line-color);
+    margin: 10px 0 0; /* Adjust margin to place the line below the header */
+  }
+  
+  .skills-list {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .skills-list .skill-item {
+    display: flex;
+    align-items: center;
+    height: 3.5rem;
+  }
+  
+  .skills-list h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+    flex-shrink: 0; /* Prevent the header from shrinking */
+  }
+  
+  .skills-list p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .skill-icon {
+    margin-right: 0.5rem;
+    color: green;
+  }
