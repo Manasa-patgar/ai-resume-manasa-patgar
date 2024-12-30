@@ -36,8 +36,6 @@
     font-size: 1.2rem;
     margin-top: 2rem;
     line-height: 1.6;
-    display: flex;
-    flex-direction: column;
   }
   
   .skills-list .skill-item {
@@ -50,11 +48,9 @@
     font-size: 1rem;
     font-weight: bold;
     margin-right: 0.5rem;
-    flex-shrink: 0; /* Prevent the header from shrinking */
   }
   
   .skills-list p {
-    margin: 0;
     font-size: 1rem;
   }
   
