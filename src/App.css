@@ -325,3 +325,63 @@ body, html, ul, li, a {
     transform: translateY(0);
   }
 }
+
+@media (max-width: 768px) {
+  .portfolio {
+    flex-direction: column;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .header h1 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .nav-list li {
+    margin: 5px 0;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+  }
+
+  .hero-content {
+    margin-bottom: 20px;
+  }
+
+  .hero-image img {
+    max-width: 80%;
+  }
+
+  .sidebar {
+    flex-direction: row;
+    top: auto;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .sidebar li {
+    margin: 10px;
+  }
+
+  .main-content {
+    width: 100%;
+  }
+}
