@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: 'manasa_patgar_portfolio',
+  base: '/manasa_patgar_portfolio/',
   plugins: [react()],
 })
