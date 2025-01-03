@@ -58,3 +58,33 @@
     margin-right: 0.5rem;
     color: green;
   }
+
+@media (max-width: 768px) {
+
+  .skills-list {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .skills-list .skill-item {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  .skills-list h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .skills-list p {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+
+  .skill-icon
+  {
+    display: none;
+  }
+}

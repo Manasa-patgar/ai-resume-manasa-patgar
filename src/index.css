@@ -74,15 +74,7 @@ button:focus-visible {
   }
 
   .header {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
-    position: relative; /* Add relative positioning */
-  }
-
-  .header h1 {
-    font-size: 1.5em;
-    margin: 0;
+    display: none; /* Hide header */
   }
 
   .nav-list {
@@ -112,17 +104,7 @@ button:focus-visible {
   }
 
   .sidebar {
-    flex-direction: column;
-    top: 50%;
-    bottom: auto;
-    left: 0;
-    transform: translateY(-50%);
-    width: auto;
-    justify-content: flex-start;
-  }
-
-  .sidebar li {
-    margin: 10px;
+    display: none; /* Hide sidebar */
   }
 
   .main-content {
